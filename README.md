@@ -9,6 +9,8 @@ Carpeta lista para usar con Claude Code. Trae 4 skills:
 | `/level-up` | Mejorar un documento incompleto o desactualizado sin inventar datos. |
 | `/skill-creator` | Crear tus propias skills. |
 
+Ademas trae un metodo de creativos (`contexto/metodo-creativos-kallaway.md`, basado en la Content Masterclass de Kallaway). Claude lo usa solo cuando le pedis idear, guionar, briefear o revisar un reel o un anuncio: no hace falta abrirlo.
+
 ## Instalar (una sola vez)
 
 1. **Descargar.** Boton verde **Code** > **Download ZIP**. Descomprimir la carpeta donde quieras (por ejemplo, en Documentos).
