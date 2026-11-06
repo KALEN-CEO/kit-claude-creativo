@@ -1,0 +1,18 @@
+{
+  "_nota": "Preferencias NO secretas de /watch. Sin credenciales. Cualquier argumento de linea de comando las sobreescribe. Claves aceptadas: detail, sub_langs, resolution, transcription.",
+  "detail": "balanced",
+  "sub_langs": ["es", "en"],
+  "resolution": 512,
+  "transcription": {
+    "_nota": "provider null = transcripcion desactivada salvo --transcribe explicito. env_file es la RUTA (no el contenido) de un archivo de entorno que solo se abre cuando la transcripcion esta activa; null = solo variables de entorno del proceso. Nunca poner claves aca.",
+    "provider": null,
+    "mode": "auto",
+    "min_subtitle_coverage": 0.5,
+    "env_file": null,
+    "language": null,
+    "models": {
+      "groq": "whisper-large-v3-turbo",
+      "openai": "whisper-1"
+    }
+  }
+}
